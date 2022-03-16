@@ -3,9 +3,11 @@ header {
   position: fixed;
   flex-direction: row;
   top: 0px;
-  left: 20px;
-  height: 60px;
-  right: 15px;
+  left: 0;
+  padding-left: 35px ;
+  padding-right: 20px;
+  height: 65px;
+  right: 0;
   z-index: 200;
   background-color: rgb(255, 255, 255);
 }
@@ -28,6 +30,7 @@ header {
 
 .youtube-logo img {
   height: 21px;
+  cursor: pointer;
 }
 
 .user-logo img {
@@ -63,6 +66,7 @@ header {
   border: 1px solid rgb(236, 236, 236);
   margin-left: -3px;
   background-color: rgb(240, 240, 240);
+  cursor: pointer;
 }
 
 
@@ -80,6 +84,7 @@ header {
   width: 30px;
   padding: 10px;
   background-color: rgb(235, 235, 235);
+  cursor: pointer;
 }
 .search-icon:hover .popup,
 .voice-search:hover .popup,
@@ -138,3 +143,8 @@ header {
   font-size: 12px;
 
 }
+
+.home img{
+  cursor: pointer;
+}
+

@@ -2,11 +2,12 @@ nav {
   display: flex;
   position: fixed;
   flex-direction: column;
-  top: 67px;
+  top: 50px;
   left: 0px;
-  width: 75px;
+  width: 100px;
+  padding-top: 10px;
   z-index: 100;
-  bottom: 100px;
+  bottom: 0px;
   background-color: white;
   /* justify-content: space-between; */
 }
@@ -17,7 +18,7 @@ nav {
 .youtube-music,
 .originals,
 .library {
-  width: 75px;
+  width: 90px;
   height: 80px;
   display: flex;
   flex-direction: column;
@@ -43,5 +44,6 @@ nav {
 .originals:hover,
 .library:hover{
     background-color: rgb(224, 224, 224);
+    cursor: pointer;
     
 } 
